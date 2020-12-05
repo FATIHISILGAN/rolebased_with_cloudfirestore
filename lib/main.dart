@@ -30,6 +30,7 @@ class MyApp extends StatelessWidget {
 
 class MainScreen extends StatelessWidget {
   @override
+  
   Widget build(BuildContext context) {
     return StreamBuilder<User>(
         stream: FirebaseAuth.instance.authStateChanges(),
